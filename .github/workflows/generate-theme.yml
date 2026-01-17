@@ -43,11 +43,8 @@ jobs:
 
     - name: Commit and push theme file
       if: success()  # 只有成功时才提交
-      run: |
-        git config user.name "GitHub Actions"
-        git config user.email "actions@github.com"
-        git add weather_theme.xaml
-        git commit -m "Auto update weather theme $(date '+%Y-%m-%d %H:%M:%S')"
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # GitHub Actions自动提供的token
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "Auto update weather theme $(date '+%Y-%m-%d %H:%M:%S')"
+        commit_author: "GitHub Actions <actions@github.com>"
+        file_pattern: "weather_theme.xaml"
