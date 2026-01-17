@@ -35,7 +35,6 @@ jobs:
       env:
         CAIYUN_TOKEN: ${{ secrets.CAIYUN_TOKEN }}  # 从GitHub Secrets获取token
       run: |
-        cd main
         if [ "${{ github.event.inputs.city }}" != "" ]; then
           python forecast.py --city "${{ github.event.inputs.city }}"
         else
@@ -47,7 +46,7 @@ jobs:
       run: |
         git config user.name "GitHub Actions"
         git config user.email "actions@github.com"
-        git add main/weather_theme.xaml
+        git add weather_theme.xaml
         git commit -m "Auto update weather theme $(date '+%Y-%m-%d %H:%M:%S')"
         git push
       env:
