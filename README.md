@@ -16,12 +16,21 @@
 
 项目已配置GitHub Actions工作流，功能如下：
 
-- 每4小时自动执行一次（通过cron表达式`0 */4 * * *`控制）
-- 代码推送到main分支时也会执行
+- **定时触发**：每4小时自动执行一次（通过cron表达式`0 */4 * * *`控制）
+- **推送触发**：代码推送到main分支时也会执行
+- **手动触发**：支持在GitHub界面手动触发，并可选择城市参数
 - 自动安装依赖、生成主题文件并提交到仓库
 - 不会泄露敏感信息（token从Secrets获取）
 
-### 3. 工作流文件位置
+### 3. 手动触发工作流
+
+1. 进入GitHub仓库的`Actions`页面
+2. 点击左侧列表中的`Generate Weather Theme`工作流
+3. 点击右上角的`Run workflow`按钮
+4. （可选）在`City name`输入框中填写要查询的城市名称
+5. 点击`Run workflow`按钮开始执行
+
+### 4. 工作流文件位置
 
 `.github/workflows/generate-theme.yml`
 

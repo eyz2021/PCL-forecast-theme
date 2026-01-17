@@ -5,6 +5,13 @@ on:
     - cron: '0 */4 * * *'  # 每4小时执行一次
   push:
     branches: [ main ]  # 代码推送到main分支时也执行
+  workflow_dispatch:  # 手动触发选项
+    inputs:
+      city:  # 可选的城市参数
+        description: 'City name'
+        required: false
+        default: '沈阳'
+        type: string
 
 jobs:
   generate-theme:
@@ -29,7 +36,11 @@ jobs:
         CAIYUN_TOKEN: ${{ secrets.CAIYUN_TOKEN }}  # 从GitHub Secrets获取token
       run: |
         cd main
-        python forecast.py
+        if [ "${{ github.event.inputs.city }}" != "" ]; then
+          python forecast.py --city "${{ github.event.inputs.city }}"
+        else
+          python forecast.py
+        fi
 
     - name: Commit and push theme file
       if: success()  # 只有成功时才提交
