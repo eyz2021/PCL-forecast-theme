@@ -1,259 +1,259 @@
 <!-- 天气动态主题文件 - 自动生成：沈阳 -->
-<local:MyCard Title="沈阳实时天气" Margin="0,0,0,15" Background="#5C6BC0">
+<local:MyCard Title="沈阳实时天气" Margin="0,0,0,15" Background="#90A4AE">
     <StackPanel Margin="25,40,23,15">
         <!-- 天气状态标题（高对比度） -->
         <TextBlock Margin="0,0,0,15" FontSize="16" HorizontalAlignment="Center" 
-                   Foreground="#FFFFFF"
-                   Text="PARTLY CLOUDY NIGHT | 暂无预报信息" />
+                   Foreground="#000000"
+                   Text="PARTLY CLOUDY DAY | 暂无预报信息" />
         
         <!-- 核心天气信息（修复3：Border包裹实现圆角，高对比文字） -->
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,20">
-            <Border Background="#E3F2FD"
+            <Border Background="#455A64"
                     CornerRadius="8"
                     Padding="10,5">
                 <TextBlock FontSize="48" 
-                           Foreground="#000000"
-                           Text="20.4°C" />
+                           Foreground="#FFFFFF"
+                           Text="20.2°C" />
             </Border>
             <TextBlock FontSize="14" VerticalAlignment="Center" Margin="10,0,0,10" 
-                       Foreground="#FFFFFF"
-                       Text="体感 20.7℃" />
+                       Foreground="#000000"
+                       Text="体感 20.9℃" />
         </StackPanel>
         
         <!-- 当日最高/最低温度（高对比） -->
         <TextBlock Margin="0,0,0,10" FontSize="13" HorizontalAlignment="Center"
-                   Foreground="#FFFFFF"
-                   Text="今日温度范围：19.7℃ ~ 29.0℃" />
+                   Foreground="#000000"
+                   Text="今日温度范围：20.2℃ ~ 28.6℃" />
 
         <!-- 小时温度预报（最终修复版） -->
         <TextBlock Margin="0,10,0,5" FontSize="12" FontWeight="Bold"
-                   Foreground="#FFFFFF"
+                   Foreground="#000000"
                    Text="未来24小时温度预报：" />
         <WrapPanel Margin="0,10,0,15">
-            <Border Background="#5C6BC0"
+            <Border Background="#90A4AE"
                     CornerRadius="3"
                     Margin="6,3"
                     Padding="4,2">
                 <TextBlock FontSize="11" 
-                           Foreground="#FFFFFF"
-                           Text="02时 20.4℃" />
+                           Foreground="#000000"
+                           Text="06时 20.2℃" />
             </Border>
             
-            <Border Background="#5C6BC0"
+            <Border Background="#90A4AE"
                     CornerRadius="3"
                     Margin="6,3"
                     Padding="4,2">
                 <TextBlock FontSize="11" 
-                           Foreground="#FFFFFF"
-                           Text="03时 20.1℃" />
-            </Border>
-            
-            <Border Background="#5C6BC0"
-                    CornerRadius="3"
-                    Margin="6,3"
-                    Padding="4,2">
-                <TextBlock FontSize="11" 
-                           Foreground="#FFFFFF"
-                           Text="04时 19.9℃" />
-            </Border>
-            
-            <Border Background="#5C6BC0"
-                    CornerRadius="3"
-                    Margin="6,3"
-                    Padding="4,2">
-                <TextBlock FontSize="11" 
-                           Foreground="#FFFFFF"
-                           Text="05时 19.7℃" />
-            </Border>
-            
-            <Border Background="#5C6BC0"
-                    CornerRadius="3"
-                    Margin="6,3"
-                    Padding="4,2">
-                <TextBlock FontSize="11" 
-                           Foreground="#FFFFFF"
-                           Text="06时 20.4℃" />
-            </Border>
-            
-            <Border Background="#5C6BC0"
-                    CornerRadius="3"
-                    Margin="6,3"
-                    Padding="4,2">
-                <TextBlock FontSize="11" 
-                           Foreground="#FFFFFF"
+                           Foreground="#000000"
                            Text="07时 21.8℃" />
             </Border>
             
-            <Border Background="#5C6BC0"
+            <Border Background="#90A4AE"
                     CornerRadius="3"
                     Margin="6,3"
                     Padding="4,2">
                 <TextBlock FontSize="11" 
-                           Foreground="#FFFFFF"
-                           Text="08时 24.0℃" />
+                           Foreground="#000000"
+                           Text="08时 22.1℃" />
             </Border>
             
-            <Border Background="#5C6BC0"
+            <Border Background="#90A4AE"
                     CornerRadius="3"
                     Margin="6,3"
                     Padding="4,2">
                 <TextBlock FontSize="11" 
-                           Foreground="#FFFFFF"
-                           Text="09时 25.4℃" />
+                           Foreground="#000000"
+                           Text="09时 22.8℃" />
             </Border>
             
-            <Border Background="#5C6BC0"
+            <Border Background="#90A4AE"
                     CornerRadius="3"
                     Margin="6,3"
                     Padding="4,2">
                 <TextBlock FontSize="11" 
-                           Foreground="#FFFFFF"
-                           Text="10时 26.8℃" />
+                           Foreground="#000000"
+                           Text="10时 23.5℃" />
             </Border>
             
-            <Border Background="#5C6BC0"
+            <Border Background="#90A4AE"
                     CornerRadius="3"
                     Margin="6,3"
                     Padding="4,2">
                 <TextBlock FontSize="11" 
-                           Foreground="#FFFFFF"
-                           Text="11时 28.1℃" />
+                           Foreground="#000000"
+                           Text="11时 24.1℃" />
             </Border>
             
-            <Border Background="#5C6BC0"
+            <Border Background="#90A4AE"
                     CornerRadius="3"
                     Margin="6,3"
                     Padding="4,2">
                 <TextBlock FontSize="11" 
-                           Foreground="#FFFFFF"
-                           Text="12时 29.0℃" />
+                           Foreground="#000000"
+                           Text="12时 24.8℃" />
             </Border>
             
-            <Border Background="#5C6BC0"
+            <Border Background="#90A4AE"
                     CornerRadius="3"
                     Margin="6,3"
                     Padding="4,2">
                 <TextBlock FontSize="11" 
-                           Foreground="#FFFFFF"
-                           Text="13时 29.0℃" />
+                           Foreground="#000000"
+                           Text="13时 25.8℃" />
             </Border>
             
-            <Border Background="#5C6BC0"
+            <Border Background="#90A4AE"
                     CornerRadius="3"
                     Margin="6,3"
                     Padding="4,2">
                 <TextBlock FontSize="11" 
-                           Foreground="#FFFFFF"
-                           Text="14时 29.0℃" />
+                           Foreground="#000000"
+                           Text="14时 26.8℃" />
             </Border>
             
-            <Border Background="#5C6BC0"
+            <Border Background="#90A4AE"
                     CornerRadius="3"
                     Margin="6,3"
                     Padding="4,2">
                 <TextBlock FontSize="11" 
-                           Foreground="#FFFFFF"
+                           Foreground="#000000"
                            Text="15时 28.6℃" />
             </Border>
             
-            <Border Background="#5C6BC0"
+            <Border Background="#90A4AE"
                     CornerRadius="3"
                     Margin="6,3"
                     Padding="4,2">
                 <TextBlock FontSize="11" 
-                           Foreground="#FFFFFF"
+                           Foreground="#000000"
                            Text="16时 28.2℃" />
             </Border>
             
-            <Border Background="#5C6BC0"
+            <Border Background="#90A4AE"
                     CornerRadius="3"
                     Margin="6,3"
                     Padding="4,2">
                 <TextBlock FontSize="11" 
-                           Foreground="#FFFFFF"
+                           Foreground="#000000"
                            Text="17时 27.8℃" />
             </Border>
             
-            <Border Background="#5C6BC0"
+            <Border Background="#90A4AE"
                     CornerRadius="3"
                     Margin="6,3"
                     Padding="4,2">
                 <TextBlock FontSize="11" 
-                           Foreground="#FFFFFF"
-                           Text="18时 27.4℃" />
+                           Foreground="#000000"
+                           Text="18时 27.3℃" />
             </Border>
             
-            <Border Background="#5C6BC0"
+            <Border Background="#90A4AE"
                     CornerRadius="3"
                     Margin="6,3"
                     Padding="4,2">
                 <TextBlock FontSize="11" 
-                           Foreground="#FFFFFF"
-                           Text="19时 26.7℃" />
+                           Foreground="#000000"
+                           Text="19时 26.6℃" />
             </Border>
             
-            <Border Background="#5C6BC0"
+            <Border Background="#90A4AE"
                     CornerRadius="3"
                     Margin="6,3"
                     Padding="4,2">
                 <TextBlock FontSize="11" 
-                           Foreground="#FFFFFF"
-                           Text="20时 26.1℃" />
+                           Foreground="#000000"
+                           Text="20时 25.9℃" />
             </Border>
             
-            <Border Background="#5C6BC0"
+            <Border Background="#90A4AE"
                     CornerRadius="3"
                     Margin="6,3"
                     Padding="4,2">
                 <TextBlock FontSize="11" 
-                           Foreground="#FFFFFF"
-                           Text="21时 25.6℃" />
+                           Foreground="#000000"
+                           Text="21时 25.5℃" />
             </Border>
             
-            <Border Background="#5C6BC0"
+            <Border Background="#90A4AE"
                     CornerRadius="3"
                     Margin="6,3"
                     Padding="4,2">
                 <TextBlock FontSize="11" 
-                           Foreground="#FFFFFF"
-                           Text="22时 25.3℃" />
+                           Foreground="#000000"
+                           Text="22时 25.2℃" />
             </Border>
             
-            <Border Background="#5C6BC0"
+            <Border Background="#90A4AE"
                     CornerRadius="3"
                     Margin="6,3"
                     Padding="4,2">
                 <TextBlock FontSize="11" 
-                           Foreground="#FFFFFF"
-                           Text="23时 25.1℃" />
+                           Foreground="#000000"
+                           Text="23时 25.0℃" />
             </Border>
             
-            <Border Background="#5C6BC0"
+            <Border Background="#90A4AE"
                     CornerRadius="3"
                     Margin="6,3"
                     Padding="4,2">
                 <TextBlock FontSize="11" 
-                           Foreground="#FFFFFF"
+                           Foreground="#000000"
                            Text="00时 25.0℃" />
             </Border>
             
-            <Border Background="#5C6BC0"
+            <Border Background="#90A4AE"
                     CornerRadius="3"
                     Margin="6,3"
                     Padding="4,2">
                 <TextBlock FontSize="11" 
-                           Foreground="#FFFFFF"
-                           Text="01时 24.9℃" />
+                           Foreground="#000000"
+                           Text="01时 24.8℃" />
+            </Border>
+            
+            <Border Background="#90A4AE"
+                    CornerRadius="3"
+                    Margin="6,3"
+                    Padding="4,2">
+                <TextBlock FontSize="11" 
+                           Foreground="#000000"
+                           Text="02时 24.6℃" />
+            </Border>
+            
+            <Border Background="#90A4AE"
+                    CornerRadius="3"
+                    Margin="6,3"
+                    Padding="4,2">
+                <TextBlock FontSize="11" 
+                           Foreground="#000000"
+                           Text="03时 24.3℃" />
+            </Border>
+            
+            <Border Background="#90A4AE"
+                    CornerRadius="3"
+                    Margin="6,3"
+                    Padding="4,2">
+                <TextBlock FontSize="11" 
+                           Foreground="#000000"
+                           Text="04时 24.0℃" />
+            </Border>
+            
+            <Border Background="#90A4AE"
+                    CornerRadius="3"
+                    Margin="6,3"
+                    Padding="4,2">
+                <TextBlock FontSize="11" 
+                           Foreground="#000000"
+                           Text="05时 23.7℃" />
             </Border>
             </WrapPanel>
         
         <!-- 基础气象信息（高对比） -->
         <StackPanel Margin="0,15,0,15">
             <TextBlock Margin="0,0,0,4" FontSize="13" 
-                       Foreground="#FFFFFF"
-                       Text="相对湿度：94.0%" />
+                       Foreground="#000000"
+                       Text="相对湿度：100.0%" />
             <TextBlock Margin="0,0,0,4" FontSize="13" 
-                       Foreground="#FFFFFF"
+                       Foreground="#000000"
                        Text="风力等级：6+级" />
         </StackPanel>
     </StackPanel>
@@ -264,7 +264,7 @@
         <local:MyHint Theme="Blue" Text="数据来源：彩云天气 API v2.6" />
         <TextBlock Margin="0,10,0,0" FontSize="12"
                    Foreground="#212121"
-                   Text="数据更新时间：2026-06-19 02:00" />
+                   Text="数据更新时间：2026-06-19 06:00" />
         <TextBlock Margin="0,5,0,0" FontSize="12"
                    Foreground="#616161"
                    Text="API请求地址：https://api.caiyunapp.com/v2.6/[TOKEN_REDACTED]/123.4316,41.8057/hourly" />
